@@ -105,33 +105,30 @@ const techStack = {
 
 
 const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
+  viewExperiences: true, 
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Systems Engineer",  
+      company: "Florida Blue",
+      companylogo: require("./assets/images/florida-blue-logo_0.jpg"),
+      date: "June 2019 – Present",
+      desc: "Design and implementation of the 99.99% up-time REST API for the critical progressive web application",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Integrating with third-party services and external APIs as a part of implementation of the high-profile single page application",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+      role: "Owner",
+      company: "Freedom IT Solutions",
+      companylogo: require("./assets/images/freedomit.png"),
+      date: "May 2020 – Present",
+      desc: "Reviewing the quality of code for the business-critical progressive web application maintaining code and design consistency across different team members",
+      descBullets: [
+        "Oversaw the Software Development Teams as well as all Infrastructure projects",
+        "Developed and maintain the Swift App and Website Design"
+      ]
+    }
   ]
 };
 
@@ -140,7 +137,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "zacharymmollenhour", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -152,12 +149,8 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/florida-blue-logo_0.jpg"),
+      link: "http://floridablue.com"
     }
   ]
 };
@@ -171,29 +164,28 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Future Business Leaders of America",
+      subtitle: "Placed first in the state in networking and software development categories",
+      image: require("./assets/images/FBLA-Color-web.png"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Website", url: "https://www.fbla-pbl.org/" },
+        { name: "Software Development", url: "https://www.fbla-pbl.org/competitive-event/coding-programming/" },
+        { name: "Networking", url: "https://www.fbla-pbl.org/competitive-event/networking-concepts-fbla/" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "Phi Theta Kappa Honor Society",
+      subtitle: "Current member of the nationally recognized Phi Theta Kappa Honor Society",
+      image: require("./assets/images/ptk_logo_rgb_vert_sq.jpg"),
+      footerLink: [{ name: "View Phi Theta Kappa Honor Society", url: "https://www.ptk.org/" }]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "MTA Software Developer",
+      subtitle: "Completed Certifcation from Microsoft for Software Development",
+      image: require("./assets/images/mslogo.jpg"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Certification", url: "https://docs.microsoft.com/en-us/learn/certifications/exams/98-361" },
       ]
     }
   ]
@@ -224,7 +216,7 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND HELP OTHER DEVELOPERS LEARN 😅"),
 
   talks: [
     {
@@ -236,28 +228,26 @@ const talkSection = {
   ]
 };
 
-// Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
+  
   podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "DISCUSS MENTORING OR SIMLY WANT TO SAY HI? MY INBOX IS OPEN FOR ALL",
+  number: "(904)-553-2614",
+  email_address: "zacharymmollenhour@gmail.com"
 };
 
-//Twitter Section
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName : "zackmollenhourtech"//Replace "twitter" with your twitter username without @
   
 };
 export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
