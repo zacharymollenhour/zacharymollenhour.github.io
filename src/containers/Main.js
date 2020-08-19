@@ -15,6 +15,7 @@ import Podcast from "./podcast/Podcast";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
+import { openSource } from "../portfolio";
 
 export default class Main extends Component {
   render() {
@@ -25,6 +26,7 @@ export default class Main extends Component {
         <Skills />
         <StackProgress />
         <WorkExperience />
+        <openSource/>
         <Projects />
         <StartupProject />
         <Achievement />
