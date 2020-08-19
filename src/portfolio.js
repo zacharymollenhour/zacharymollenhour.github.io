@@ -13,26 +13,20 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
-
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
-  // Instagram and Twitter are also supported in the links!
+  //Links to my social for home page
+  github: "https://github.com/zacharymollenhour",
+  linkedin: "https://www.linkedin.com/in/zachary-mollenhour-3820b3126/",
+  gmail: "zacharymmollenhour@gmail.com",
 };
 
-// Your Skills Section
-
+//Skills Section
 const skillsSection = {
   title: "What i do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop highly responsive Back end applications for high level companies"),
+    emoji("⚡ I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -44,12 +38,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "JavaScript",
@@ -86,36 +80,29 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Backend/Design",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Frontend/UI Design",
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ]
 };
 
-
-// Your top 3 work experiences
 
 const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
